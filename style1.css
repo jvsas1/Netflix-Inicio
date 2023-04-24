@@ -57,6 +57,11 @@ body{
     margin-left: 10px;
    
 }
+
+.botao_entrar:hover{
+  background-color: #aa0b0b;
+  cursor:pointer;
+}
 .cabeçalho1{
     display: flex;
     justify-content: space-around;
@@ -113,6 +118,11 @@ body{
     font-weight: 600;
     font-family: sans-serif;
 } 
+
+.botao_cadastrar:hover{
+  background-color: #aa0b0b;
+  cursor:pointer;
+}
 
 .container_secção1,.container_secção2,.container_secção3,.container_secção4,.container_secção5{
     border: rgb(50, 50, 50);
