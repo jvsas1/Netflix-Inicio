@@ -1,0 +1,360 @@
+body{
+    background: black;
+}
+
+.inicio_container{
+    background:rgba(0, 0, 0, 0.6) url(img/fundo_inicio.png);;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh; 
+    border: rgb(50, 50, 50);
+    border-style: solid;
+    border-width: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    
+ 
+}
+
+
+
+.logo{
+    height: 3.2em;
+}
+
+.seletor_cabeçalho1{
+    display: flex;
+}
+
+.seletor_idioma{
+    background: black;
+    color: white;
+    margin-right: 10px;
+    font-size: 17px;
+    text-align: center;
+    width: 148px;
+    height: 32px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.botao_entrar{
+   
+    color:white;
+    background-color: #ed0a0a;
+
+    width: 90px;
+    height:42px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding:4px 16px;
+    margin-left: 10px;
+   
+}
+.cabeçalho1{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5em;
+}
+.info_login{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+    color:white;
+    padding: 10em;
+    
+}
+
+.titulo_anuncio{
+    font-size: 54px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.subtitulo_anuncio{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.info_anuncio{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+.input_email{
+    font-size: 1.3em;
+    width: 400px;
+    background: transparent;
+    padding: 1em;
+    border:solid,white;
+    color:white;
+}
+
+.botao_cadastrar{ 
+
+    color:white;
+    background-color: #ed0a0a;
+    width: 6em;
+    border-radius: 6px;
+    font-size: 28px;
+    padding: 17px;
+    margin-left:5px;
+    font-weight: 600;
+    font-family: sans-serif;
+} 
+
+.container_secção1,.container_secção2,.container_secção3,.container_secção4,.container_secção5{
+    border: rgb(50, 50, 50);
+    border-style: solid;
+    border-width: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none; 
+    width: 100%;
+ 
+    
+
+}
+.seccção_1,.seccção_2,.seccção_3,.seccção_4{
+    color:white;
+    padding: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.info_sec1{
+    width:700px;
+}
+
+.info_sec3{
+    width:600px;
+}
+
+.info_sec4{
+    width:600px;
+} 
+
+
+
+
+
+.subtitulo_sec1,.subtitulo_sec2,.subtitulo_sec3,.subtitulo_sec4{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.texto_sec1{ 
+    margin-top: 16px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 700px;
+} 
+
+.texto_sec2{ 
+
+    margin-top: 16px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 650px;
+
+
+}
+
+
+.texto_sec3{
+    margin-top: 16px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 650px;
+}
+
+.texto_sec4{
+    margin-top: 16px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 650px;
+
+} 
+
+.seccção_5{
+    color:white;
+}
+
+
+
+.titulo_perguntas{ 
+
+    text-align: center;
+    color:white;
+    margin-top: 16px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+
+
+
+.accordion {
+    background-color: #424141;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 30px;
+  } 
+
+
+  .accordion:hover {
+    background-color: #ccc;
+  }
+
+
+  .panel {
+    padding: 0 18px;
+    background-color: #424141;
+    display: none;
+    overflow: hidden;
+  } 
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 25px;
+    color:#616161;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2573"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .caixa_perguntas{
+    padding: 3em;
+    display: grid;
+    margin-left: 20em;
+    margin-right: 20em;
+    gap: 10px;
+  }
+
+  .texto_panel{
+    font-size: 25px;
+    font-family: sans-serif;
+    color:white;
+    padding: 1.2em;
+    
+  } 
+
+  .caixa_cadastro{
+    padding:1.1em;
+  }
+
+  .texto_cadastro{
+    padding-top:20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color:white;
+
+  } 
+
+  .campo_email2{
+    padding-top:20px;
+    text-align: center;
+
+  } 
+
+
+  .container_secção6{ 
+    display:grid;
+    padding:3em;
+    margin-right: 50%;
+
+  }
+  
+
+  .seccção_6{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    
+    width: 100%;
+    
+
+  }
+
+
+  
+  .colunas_sec6{ 
+    display:grid;
+    gap: 15px;
+   
+    
+
+  }
+
+  .item_anchor,.ntf_br{
+
+    color:rgb(180, 179, 179);
+    font-size: 18px;
+  } 
+
+  .seletor_ntf_br{
+    gap:20px;
+    display: grid;
+   
+   
+    
+  } 
+  .s6_l1{ 
+    padding-bottom: 1em;
+    color:rgb(180, 179, 179);
+    font-size: 20px;
+    margin-left: 11%;
+
+    
+
+  }  
+
+  .s6_l3{
+    padding-top:20px;
+    color:rgb(180, 179, 179);
+    font-size: 20px;
+    DISPLAY: grid;
+    gap: 25px;
+    margin-left: 11%;
+    margin-top:4%;
+    font-weight: 300;
+  }
+
+  
+  
+
+  
+
+
+
+
+
