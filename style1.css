@@ -367,7 +367,7 @@ cursor:pointer;
 @media(max-width:1000px){
 
     .inicio_container{
-      height: 90vh;
+      height: 105vh;
     } 
 
     
@@ -461,4 +461,6 @@ cursor:pointer;
       font-size:20px;
 
     }
-}
+} 
+
+
