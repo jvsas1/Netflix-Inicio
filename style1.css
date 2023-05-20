@@ -330,6 +330,10 @@ body{
     color:rgb(180, 179, 179);
     font-size: 18px;
   } 
+  .item_anchor:hover{
+    color:rgb(225, 219, 219);
+  }
+
 
   .seletor_ntf_br{
     gap:20px;
@@ -338,6 +342,8 @@ body{
    
     
   } 
+
+  
   .s6_l1{ 
     padding-bottom: 1em;
     color:rgb(180, 179, 179);
@@ -358,6 +364,106 @@ body{
     margin-top:4%;
     font-weight: 300;
   }
+
+
+  @media(max-width:1200px){
+
+    .inicio_container{
+      height: 80vh;
+    } 
+
+    
+
+    .seccção_1{
+      flex-direction: column-reverse;
+      padding-top:40px;
+      
+    } 
+
+    .botao_cadastrar{
+      margin-top: 15px;
+    }
+
+    .info_sec1{
+      margin-left:3em;
+     
+    }
+    .subtitulo_sec1{
+      font-size: 40px;
+      
+    }
+
+    .texto_sec1{ 
+      font-size: 25px;
+
+    }
+
+    .seccção_2{
+      display: grid;
+      padding-top:40px;
+
+    } 
+
+    .info_sec2{
+      margin-left:1em;
+    }
+
+    .subtitulo_sec2{
+      font-size: 40px;
+    }
+    
+    .texto_sec2{
+      font-size: 25px;
+      
+    }
+
+    .seccção_3{
+      flex-direction: column-reverse;
+      padding-top:40px;
+    } 
+
+    
+    .subtitulo_sec3{
+      font-size: 40px;
+    }
+
+    .texto_sec3{
+      font-size:25px;
+    }
+
+    .seccção_4{
+     
+      flex-direction: column-reverse;
+      padding-top:70px;
+    } 
+
+    .subtitulo_sec4{
+      font-size: 45px;
+      width: 500px;
+      
+    }
+
+    .texto_sec4{
+      font-size:25px;
+    } 
+
+    .seccção_5{
+      display: grid;
+      justify-content: center;
+    }
+
+    .titulo_perguntas{
+      font-size: 40px;
+      padding-top:30px;
+    }
+    .accordion{
+      font-size: 25px;
+    }
+    .texto_panel{
+      font-size:20px;
+
+    }
+}
 
   
   
