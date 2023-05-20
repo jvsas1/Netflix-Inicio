@@ -367,7 +367,8 @@ cursor:pointer;
 @media(max-width:1000px){
 
     .inicio_container{
-      height: 105vh;
+      height: 110vh;
+      padding-bottom: 10px;
     } 
 
     
